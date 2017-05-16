@@ -118,7 +118,6 @@ public class TValidityHeuristic implements HeuristicFunction {
 			}
 			Arrays.sort(score);
 			System.out.println("feasible: " + score[0]);
-			System.out.println("Helloooooooooooooooooooooooooooo");
 			//System.out.println("--" + Arrays.toString(score));
 			return -score[0];
 		}else{
@@ -130,7 +129,7 @@ public class TValidityHeuristic implements HeuristicFunction {
 			}
 			Arrays.sort(score);
 			//System.out.println(Arrays.toString(score));
-			System.out.println("infeasible: " + score[0]);
+			//System.out.println("infeasible: " + score[0]);
 			return -score[0];
 		}
 		

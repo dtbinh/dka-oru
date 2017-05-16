@@ -103,7 +103,7 @@ public class TestLocalSearch1 {
 
 		long end = Calendar.getInstance().getTimeInMillis();
 		
-		System.out.println((end - start)/1000);
+		System.out.println("COMPUTATION TIME: " +(end - start)/1000);
 	}
 
 }
