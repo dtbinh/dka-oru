@@ -39,15 +39,6 @@ public class TestLocalSearch1 {
 				
 		
 		HashMap<Integer, Bounds> expirations = new HashMap<Integer, Bounds>();
-//		expirations.put(1, 30);
-//		expirations.put(2, 25);
-//		expirations.put(3, 70);
-//		expirations.put(4, 30);
-//		expirations.put(5, 50);
-//		expirations.put(6, 60);
-//		expirations.put(7, 30);
-//		expirations.put(8, 50);
-
 		
 		expirations.put(1, new Bounds(40, 60));
 		expirations.put(2, new Bounds(25, 45));
